@@ -1,0 +1,6 @@
+<div class="flight-info">
+    <div *ngIf="!lst || lst && lst.length === 0" translate> No Upcoming Flights! </div>
+    <div *ngFor="let item of lst">
+        <app-one-flight [item]="item"></app-one-flight>
+    </div>
+</div>

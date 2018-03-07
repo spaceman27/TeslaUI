@@ -1,0 +1,19 @@
+<div class="flex flex-row justify-start mb-2 one-flight">
+    <div #fo class="bd gate-cell">
+        {{ item.gateName }}
+    </div>
+    <div class="bd gate-cell"> {{ item.flightName }} </div>
+    <div class="bd gate-cell"> {{ item.destination }} </div>
+    <div>
+        <table>
+            <tr>
+                <td colspan=2 class="rot-90">STD</td>
+                <td colspan=2 class="gate-cell-s"> {{ item.scheduleTime }} </td>
+            </tr>
+            <tr>
+                <td colspan=2 class="rot-90"> {{item.actualField}} </td>
+                <td colspan=2 class="gate-cell-s"> {{ item.actualTime }} </td>
+            </tr>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+@import '../upcoming-flight.component';
+.one-flight {
+    cursor: pointer;
+    @extend .ams_focus;
+}
+
+.selected-border {
+    outline: 2px solid $ams-focus-color;
+}

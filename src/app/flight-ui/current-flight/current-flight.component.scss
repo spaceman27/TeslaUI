@@ -1,0 +1,61 @@
+@import '../flight-ui.component';
+$gate-part-w: 18em;
+.gate-info {
+    width: $gate-part-w;
+    @extend .border-transparent;
+}
+
+.gate-status {
+    width: $gate-part-w;
+    @extend .border-transparent;
+}
+
+#gate1 {
+    background: #F7F7F7;
+}
+
+#gate1 table,
+tr,
+td {
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    height: 3em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.gate-name {
+    width: 6em;
+}
+
+.gate-time {
+    width: 0.5em;
+}
+
+.btn.btn-primary.btn-ams {
+    @extend .ams_focus;
+}
+
+.g-status {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.btn-board-seq {
+    background: #449D44 !important;
+    &:hover {
+        background: #1BD109 !important;
+    }
+}
+
+.gate-close {
+    color: red;
+    position: relative;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.current-flight-container {
+    background-color: #555;
+}

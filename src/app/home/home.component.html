@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4" *ngFor="let item of lstProject">
+            <a routerLink="{{item.component}}" routerLinkActive="active">
+                <figure>
+                    <img [src]="item.imageUrl" alt="{{item.name}}">
+                    <figcaption>{{item.name}}</figcaption>
+                </figure>
+            </a>
+        </div>
+    </div>
+</div>

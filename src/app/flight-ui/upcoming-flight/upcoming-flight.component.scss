@@ -1,0 +1,38 @@
+@import '../flight-ui.component';
+.flight-info {
+    background: $bg-flight-content;
+    @extend .border-transparent;
+    margin-top: 12px;
+}
+
+$cell-height: 72px;
+table {
+    height: $cell-height;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gate-cell {
+    height: $cell-height;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: $cell-height;
+    width: 5em;
+}
+
+.gate-cell-s {
+    font-size: 1em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+.rot-90 {
+    font-size: 0.6em;
+    transform: rotate(-90deg);
+}
