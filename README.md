@@ -1,7 +1,7 @@
 # Angular Tesla UI
 
-This project was generated with [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/)
-version 4.0.0
+Angular 5 Project: Implementation of PSD collections
+Easy to reuse anywhere in your project
 
 # Getting started
 
