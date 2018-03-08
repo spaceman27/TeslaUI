@@ -29,9 +29,11 @@ export class HomeComponent implements OnInit {
                         'https://www.pinterest.com/pin/419608890260629056/',
                         'https://www.pinterest.com/pin/444378688224896820/'
                       ]),
-      new ProjectModel('Cooking Manual', 'assets/cooking.jpg', '', ['https://www.pinterest.com/pin/133700682659582280/']),
+      new ProjectModel('Flat Transparent UI Kit', 'assets/flat-transparent-ui.jpg', '', ['https://dcrazed.com/wp-content/uploads/2013/09/mboy-flat-transparent.jpg']),    
       new ProjectModel('Social Network Profile', 'assets/social.jpg', '', ['https://dcrazed.com/wp-content/uploads/2016/07/Flat-Design-UI-Components.jpg']),
-
+      new ProjectModel('Cooking Manual', 'assets/cooking.jpg', '', ['https://www.pinterest.com/pin/133700682659582280/']),
+      new ProjectModel('Flat UI Blog', 'assets/flat-ui-blog.jpg', '', ['https://dcrazed.com/wp-content/uploads/2013/09/flat-ui-blog-large-1.jpg']),
+      new ProjectModel('Web Dashboard', 'assets/web-dashboard.jpg', '', ['http://www.uipixels.com/web-dashboard-design-psd/'])
     ];
 
   }
