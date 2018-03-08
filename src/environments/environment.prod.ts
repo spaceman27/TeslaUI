@@ -5,7 +5,7 @@ export const environment = {
   production: true,
   version: env.npm_package_version,
   serverUrl: 'https://spaceman27.github.io/TeslaUI/dist',
-  baseUrl: 'https://spaceman27.github.io/TeslaUI/dist',
+  baseUrl: 'dist',
   defaultLanguage: 'en-US',
   supportedLanguages: [
     'en-US',
