@@ -22,6 +22,7 @@ export class HomeComponent implements OnInit {
   environment: any;
 
   constructor() {
+    console.log(environment);
     this.environment = environment;
     this.lstProject = [
       new ProjectModel('Flight UI Packs', 'centric.jpg', '/flight', ['https://www.pinterest.com/pin/729864683334583637/']),
