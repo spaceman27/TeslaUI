@@ -3,7 +3,7 @@
         <div class="col-4" *ngFor="let item of lstProject">
             <a routerLink="{{item.component}}" routerLinkActive="active">
                 <figure>
-                    <img [src]="'assets/' + item.imageUrl" alt="{{item.name}}">
+                    <img [src]="(environment.production? environment.baseURL + '/' : '') + 'assets/' + item.imageUrl" alt="{{item.name}}">
                     <figcaption>{{item.name}}</figcaption>
                 </figure>
             </a>

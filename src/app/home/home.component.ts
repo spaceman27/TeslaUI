@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { finalize } from 'rxjs/operators';
+import { environment } from '../../environments/environment';
 
 export interface ProjectInterface {
   name: string;
@@ -18,8 +19,10 @@ export class ProjectModel implements ProjectInterface {
 })
 export class HomeComponent implements OnInit {
   lstProject: ProjectModel[];
+  environment: any;
 
   constructor() {
+    this.environment = environment;
     this.lstProject = [
       new ProjectModel('Flight UI Packs', 'centric.jpg', '/flight', ['https://www.pinterest.com/pin/729864683334583637/']),
       new ProjectModel('I Love Veggie', 'iloveveggie.jpg', '', ['https://www.pinterest.com/pin/456763587197539948/']),
