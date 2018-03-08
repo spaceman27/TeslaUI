@@ -9,6 +9,7 @@ import { FlightUiComponent } from './flight-ui.component';
 import { CurrentFlightComponent } from './current-flight/current-flight.component';
 import { UpcomingFlightComponent } from './upcoming-flight/upcoming-flight.component';
 import { OneFlightComponent } from './upcoming-flight/one-flight/one-flight.component';
+import { TicketComponent } from './ticket/ticket.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { OneFlightComponent } from './upcoming-flight/one-flight/one-flight.comp
     FlightUiComponent,
     CurrentFlightComponent,
     UpcomingFlightComponent,
-    OneFlightComponent
+    OneFlightComponent,
+    TicketComponent
   ],
   providers: [
   ]

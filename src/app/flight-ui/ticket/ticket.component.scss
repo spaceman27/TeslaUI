@@ -1,0 +1,25 @@
+.ticket {
+    height: 17em;
+    .body-part {
+        border: 1px solid #ccc;
+        width: 30em;
+        height: 100%;
+        .line-part {
+            height: 100%;
+            width: 2em;
+            background-color: blue;
+        }
+        .main-ticket {
+            width: 20em;
+            height: 100%;
+        }
+        .tear-part {
+            width: 12em;
+            height: 100%;
+        }
+        .separate-line {
+            height: 100%;
+            border-left: thick solid #ccc;
+        }
+    }
+}

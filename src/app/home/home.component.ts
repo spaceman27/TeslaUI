@@ -22,7 +22,6 @@ export class HomeComponent implements OnInit {
   environment: any;
 
   constructor() {
-    console.log(environment);
     this.environment = environment;
     this.lstProject = [
       new ProjectModel('Flight UI Packs', 'centric.jpg', '/flight', ['https://www.pinterest.com/pin/729864683334583637/']),
@@ -33,7 +32,7 @@ export class HomeComponent implements OnInit {
                         'https://www.pinterest.com/pin/419608890260629056/',
                         'https://www.pinterest.com/pin/444378688224896820/'
                       ]),
-      new ProjectModel('Flat Transparent UI Kit', 'flat-transparent-ui.jpg', '', ['https://dcrazed.com/wp-content/uploads/2013/09/mboy-flat-transparent.jpg']),    
+      new ProjectModel('Flat Transparent UI Kit', 'flat-transparent-ui.jpg', '', ['https://dcrazed.com/wp-content/uploads/2013/09/mboy-flat-transparent.jpg']),
       new ProjectModel('Social Network Profile', 'social.jpg', '', ['https://dcrazed.com/wp-content/uploads/2016/07/Flat-Design-UI-Components.jpg']),
       new ProjectModel('Cooking Manual', 'cooking.jpg', '', ['https://www.pinterest.com/pin/133700682659582280/']),
       new ProjectModel('Flat UI Blog', 'flat-ui-blog.jpg', '', ['https://dcrazed.com/wp-content/uploads/2013/09/flat-ui-blog-large-1.jpg']),
