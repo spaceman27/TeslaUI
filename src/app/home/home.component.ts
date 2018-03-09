@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
     this.environment = environment;
     this.lstProject = [
       new ProjectModel('Flight UI Packs', 'centric.jpg', '/flight', ['https://www.pinterest.com/pin/729864683334583637/']),
-      new ProjectModel('I Love Veggie', 'iloveveggie.jpg', '', ['https://www.pinterest.com/pin/456763587197539948/']),
+      new ProjectModel('I Love Veggie', 'iloveveggie.jpg', '/iloveveggie', ['https://www.pinterest.com/pin/456763587197539948/']),
       new ProjectModel('Disney Life', 'disneylife.jpg', '', ['https://www.pinterest.com/pin/483503709984500652/']),
       new ProjectModel('Sign In 3 Packs', 'signin.jpg', '',
                         ['https://www.pinterest.com/pin/568790627925499096/',

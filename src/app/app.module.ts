@@ -11,6 +11,7 @@ import { HomeModule } from './home/home.module';
 import { FlightModule } from './flight-ui/flight-ui.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ILoveVeggieModule } from './iloveveggie/iloveveggie.module';
 
 @NgModule({
   imports: [
@@ -23,6 +24,7 @@ import { AppRoutingModule } from './app-routing.module';
     SharedModule,
     HomeModule,
     FlightModule,
+    ILoveVeggieModule,
     AppRoutingModule
   ],
   declarations: [AppComponent],

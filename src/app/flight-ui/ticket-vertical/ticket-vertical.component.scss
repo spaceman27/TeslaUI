@@ -11,12 +11,21 @@ $padding_board: 1em;
     }
     .body-part {
         border: 1px solid #ccc;
+        position: relative;
         width: 16em;
         height: 100%;
         .brief-ticket {
             padding: $padding_board;
             .journey {
                 font-size: 1.7em;
+            }
+            .logo {
+                width: 9em;
+                height: 44px;
+                border: thick dashed #f2f2f2;
+                border-color: #ccc transparent transparent transparent;
+                border-radius: 54%/44px 44px 0 0;
+                margin: 0 auto;
             }
         }
         .main-ticket {
@@ -45,9 +54,29 @@ $padding_board: 1em;
             height: 100%;
             padding: $padding_board;
         }
+        .oval {
+            position: absolute;
+            top: 302px;
+            width: 33px;
+            height: 33px;
+            background: white;
+            border-radius: 90px;
+            &.left {
+                left: -20px;
+                border-right: 2px solid #ccc;
+            }
+            &.right {
+                right: -20px;
+                border-left: 2px solid #ccc;
+            }
+        }
         .separate-line {
             height: 100%;
             border-bottom: thick solid #f2f2f2;
+        }
+        .tear-line {
+            height: 100%;
+            border-bottom: thick dashed #f2f2f2;
         }
     }
 }
