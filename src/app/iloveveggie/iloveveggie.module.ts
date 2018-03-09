@@ -6,6 +6,7 @@ import { CoreModule } from '@app/core';
 import { SharedModule } from '@app/shared';
 import { ILoveVeggieRoutingModule } from './iloveveggie-routing.module';
 import { ILoveVeggieComponent } from './iloveveggie.component';
+import { VegBoxComponent } from './veg-box/veg-box.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ILoveVeggieComponent } from './iloveveggie.component';
     ILoveVeggieRoutingModule
   ],
   declarations: [
-    ILoveVeggieComponent
+    ILoveVeggieComponent,
+    VegBoxComponent
   ],
   providers: [
   ]

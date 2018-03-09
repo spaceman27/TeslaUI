@@ -1,0 +1,29 @@
+.veg-item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 1em;
+    position: relative;
+    .discount {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: #9AD5C9;
+        font-size: 0.8em;
+        font-family: fantasy;
+    }
+    .price {}
+    .icon {
+        text-align: center;
+    }
+    .veg-name {}
+    .separate-line {}
+    .add-cart {
+        padding: 0.5em;
+        text-align: center;
+        color: #9AD5C9;
+    }
+    .separate-line {
+        height: 100%;
+        border-bottom: 1px solid #f2f2f2;
+    }
+}
