@@ -1,0 +1,28 @@
+<div class="ticket flex flex-column justify-start">
+    <div class="line-part"></div>
+    <div class="body-part flex flex-column justify-start">
+        <div class="brief-ticket text-center">
+            <div class="flex flex-column justify-between">
+                <span class="journey"> NYC <i class="fa fa-fighter-jet" aria-hidden="true"></i>  AMS</span>
+            </div>
+        </div>
+        <div class="separate-line"></div>
+        <div class="main-ticket">
+            <div class="flex flex-column justify-start">
+                <div class="flex flex-row justify-between mb-1">
+                    <span class="passenger">Passenger: Dao Nguyen</span>
+                </div>
+                <div class="flex flex-column justify-between mb-1">
+                    <span class="departure-time">Date: 10 July 2018 20:30 </span>
+                    <span class="destination">Destination: Denver </span>
+                    <span>Gate: A1</span>
+                    <span class="seat"> SEAT: 23B </span>
+                </div>
+            </div>
+        </div>
+        <div class="separate-line"></div>
+        <div class="tear-part text-center">
+            <ngx-barcode [bc-value]="5345455454" [bc-width]="1" [bc-height]="50" [bc-display-value]="true"></ngx-barcode>
+        </div>
+    </div>
+</div>

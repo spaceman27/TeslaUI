@@ -1,0 +1,53 @@
+$bg_boardpass: #1968A1;
+$padding_board: 1em;
+.ticket {
+    height: 27em;
+    .line-part {
+        height: 2em;
+        width: 100%;
+        background-color: $bg_boardpass;
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+    }
+    .body-part {
+        border: 1px solid #ccc;
+        width: 16em;
+        height: 100%;
+        .brief-ticket {
+            padding: $padding_board;
+            .journey {
+                font-size: 1.7em;
+            }
+        }
+        .main-ticket {
+            width: 31em;
+            height: 100%;
+            padding: $padding_board;
+            .seat {
+                width: 141px;
+                height: 47px;
+                background: $bg_boardpass;
+                font-size: 2em;
+                line-height: 47px;
+                text-align: center;
+            }
+            .passenger,
+            .destination,
+            .airline,
+            .boarding-pass,
+            .departure-time,
+            .departure-date {
+                font-size: 1.2em;
+            }
+        }
+        .tear-part {
+            width: 15em;
+            height: 100%;
+            padding: $padding_board;
+        }
+        .separate-line {
+            height: 100%;
+            border-bottom: thick solid #f2f2f2;
+        }
+    }
+}
