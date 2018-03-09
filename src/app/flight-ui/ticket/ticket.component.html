@@ -1,8 +1,36 @@
-<div class="ticket">
-    <div class="body-part dib">
-        <div class="line-part dib"></div>
-        <div class="main-ticket dib"></div>
-        <div class="separate-line dib"></div>
-        <div class="tear-part dib"></div>
+<div class="ticket flex flex-row justify-start">
+    <div class="line-part"></div>
+    <div class="body-part flex flex-row justify-start">
+        <div class="main-ticket">
+            <div class="flex flex-column justify-start">
+                <div class="flex flex-row justify-between mb-1">
+                    <span class="airline">United Airline </span>
+                    <span class="boarding-pass">BOARDING PASS</span>
+                </div>
+                <div class="flex flex-row justify-between mb-1">
+                    <span class="departure-time">20:30 </span>
+                    <span class="departure-date">10 July 2018</span>
+                </div>
+                <div class="flex flex-row justify-between mb-1">
+                    <span class="destination">Denver </span>
+                    <span class="journey"> NYC <i class="fa fa-fighter-jet" aria-hidden="true"></i>  AMS</span>
+                </div>
+                <div class="flex flex-row justify-between mb-1">
+                    <span class="seat"> SEAT 23B </span>
+                    <span> <ngx-barcode [bc-value]="5345455454" [bc-width]="1" [bc-height]="50" [bc-display-value]="true"></ngx-barcode> </span>
+                </div>
+            </div>
+        </div>
+        <div class="separate-line"></div>
+        <div class="tear-part">
+            <div class="flex flex-column justify-start">
+                <span class="airline">United Airline </span>
+                <span class="departure-time">20:30 </span>
+                <span class="departure-date">10 July 2018</span>
+                <span class="destination">Denver </span>
+                <span class="journey"> NYC <i class="fa fa-fighter-jet" aria-hidden="true"></i>  AMS</span>
+                <span class="seat"> SEAT 23B </span>
+            </div>
+        </div>
     </div>
 </div>

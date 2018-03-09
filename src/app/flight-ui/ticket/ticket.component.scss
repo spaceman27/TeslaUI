@@ -1,25 +1,70 @@
+$bg_boardpass: #1968A1;
 .ticket {
     height: 17em;
+    .line-part {
+        height: 100%;
+        width: 2em;
+        background-color: $bg_boardpass;
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+    }
     .body-part {
         border: 1px solid #ccc;
-        width: 30em;
+        width: 33em;
         height: 100%;
-        .line-part {
-            height: 100%;
-            width: 2em;
-            background-color: blue;
-        }
         .main-ticket {
-            width: 20em;
+            width: 31em;
             height: 100%;
+            padding: 1em;
+            .seat {
+                width: 141px;
+                height: 47px;
+                background: $bg_boardpass;
+                font-size: 2em;
+                line-height: 47px;
+                text-align: center;
+            }
+            .destination,
+            .journey {
+                font-size: 1.7em;
+            }
+            .airline,
+            .boarding-pass {
+                font-size: 1.3em;
+            }
+            .departure-time,
+            .departure-date {
+                font-size: 2em;
+            }
         }
         .tear-part {
-            width: 12em;
+            width: 15em;
             height: 100%;
+            padding: 1em;
+            .seat {
+                width: 141px;
+                height: 36px;
+                background: $bg_boardpass;
+                font-size: 1.6em;
+                line-height: 36px;
+                text-align: center;
+            }
+            .destination,
+            .journey {
+                font-size: 1.4em;
+            }
+            .airline,
+            .boarding-pass {
+                font-size: 1.3em;
+            }
+            .departure-time,
+            .departure-date {
+                font-size: 1.4em;
+            }
         }
         .separate-line {
             height: 100%;
-            border-left: thick solid #ccc;
+            border-left: thick solid #f2f2f2;
         }
     }
 }

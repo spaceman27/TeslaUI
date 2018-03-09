@@ -5,6 +5,8 @@ import { TranslateModule } from '@ngx-translate/core';
 import { CoreModule } from '@app/core';
 import { SharedModule } from '@app/shared';
 import { FlightRoutingModule } from './flight-ui-routing.module';
+import { NgxBarcodeModule } from 'ngx-barcode';
+
 import { FlightUiComponent } from './flight-ui.component';
 import { CurrentFlightComponent } from './current-flight/current-flight.component';
 import { UpcomingFlightComponent } from './upcoming-flight/upcoming-flight.component';
@@ -17,7 +19,8 @@ import { TicketComponent } from './ticket/ticket.component';
     TranslateModule,
     CoreModule,
     SharedModule,
-    FlightRoutingModule
+    FlightRoutingModule,
+    NgxBarcodeModule
   ],
   declarations: [
     FlightUiComponent,
