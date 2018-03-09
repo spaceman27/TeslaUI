@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-veg-box',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./veg-box.component.scss']
 })
 export class VegBoxComponent implements OnInit {
-
-  constructor() { }
+  @Input() item: any;
+  environment: any;
+  constructor() {
+    this.environment = environment;
+  }
 
   ngOnInit() {
   }
