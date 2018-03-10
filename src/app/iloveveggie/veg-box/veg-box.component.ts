@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { environment } from '../../../environments/environment';
+import { StarRatingComponent } from '../../shared/star-rating/star-rating.component';
 
 @Component({
   selector: 'app-veg-box',

@@ -5,7 +5,7 @@ $color-veg: #03B480;
     background-size: cover;
     padding: 2em;
     height: 100%;
-    .bold{
+    .bold {
         color: $color-veg;
         font-weight: bold;
     }
@@ -37,4 +37,37 @@ $color-veg: #03B480;
     background: #F7F7F7;
     padding: 1em;
     border-radius: 17px;
+    min-height: 41.5em;
+}
+
+.veg-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.carousel {
+    zoom: 60%;
+    opacity: 0.9;
+    z-index: 9;
+    transition: zoom 2s;
+    &:hover {
+        opacity: 1;
+        zoom: 90%;
+        z-index: 10;
+    }
+}
+
+.veggie-card {
+    background: #F7F7F7;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 1em;
+    position: relative;
+}
+
+.box-shadow-hover {
+    animation: box-shadow 1s;
+    &:hover {
+        box-shadow: #ccc 0px 0px 20px 11px;
+    }
 }

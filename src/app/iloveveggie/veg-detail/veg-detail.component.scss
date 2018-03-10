@@ -1,11 +1,6 @@
 @import '../iloveveggie.component';
 .veg-detail{
-    background: #F7F7F7;
-    border: 1px solid #ccc;
-    padding: 1.5em;
-    padding-top: 1em;
-    border-radius: 1em;
-    position: relative;
+    @extend .veggie-card;
     width: 18em;
-    box-shadow: #ccc 0px 0px 20px 11px;
+    @extend .box-shadow-hover;
 }
