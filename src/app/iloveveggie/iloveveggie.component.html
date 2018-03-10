@@ -1,10 +1,28 @@
-<div class="veg-container">
-    <div class="flex flex-row justify-start">
-        <app-veg-box [item]="item[0]" class="mr-2 mb-2"></app-veg-box>
-        <app-veg-box [item]="item[1]" class="mr-2 mb-2"></app-veg-box>
+<div class="veg-container relative  ">
+    <div class="first-brick absolute">
+        <div class="text-center veg-title"> ON VEGGIE </div>
+        <div class="flex flex-row justify-center">
+            <app-veg-box [item]="items[0]" class="mr-2 mb-2"></app-veg-box>
+            <app-veg-box [item]="items[1]" class="mr-2 mb-2"></app-veg-box>
+        </div>
+        <div class="flex flex-row justify-center">
+            <app-veg-box [item]="items[2]" class="mr-2 mb-2"></app-veg-box>
+            <app-veg-box [item]="items[3]" class="mr-2 mb-2"></app-veg-box>
+        </div>
     </div>
-    <div class="flex flex-row justify-start">
-        <app-veg-box [item]="item[2]" class="mr-2 mb-2"></app-veg-box>
-        <app-veg-box [item]="item[3]" class="mr-2 mb-2"></app-veg-box>
+    <div class="second-brick">
+        <div class="text-center">
+            <p class="quote-title">Elegant and Simple</p>
+            <p class="quote-content"><span class="bold">On Veggy</span> - Ecommerce mobile App UI Design kit is amazing set designed to inspire your next world's largest Ecommerce application design</p>        
+        </div>
+        <div class="mt-2 text-center">
+          <div class="flex flex-row justify-center">
+              <app-veg-signup [style.zoom]="'60%'"></app-veg-signup>
+              <app-veg-detail [style.zoom]="'60%'"></app-veg-detail>
+              <app-veg-list [style.zoom]="'90%'" [items]="items"></app-veg-list>
+              <app-veg-wallet [style.zoom]="'60%'"></app-veg-wallet>
+              <app-veg-cart [style.zoom]="'60%'"></app-veg-cart>
+          </div>
+        </div>
     </div>
 </div>

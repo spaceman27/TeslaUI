@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./iloveveggie.component.scss']
 })
 export class ILoveVeggieComponent implements OnInit {
-  item: any[];
+  items: any[];
   constructor() { }
 
   ngOnInit() {
-    this.item = [
+    this.items = [
       {
         discount: '20% off',
         price: '$3',
@@ -21,19 +21,19 @@ export class ILoveVeggieComponent implements OnInit {
         discount: '',
         price: '$6',
         icon: 'carrot.png',
-        vegName: 'Broccoli Flower'
+        vegName: 'Carrot'
       },
       {
         discount: '',
         price: '$10',
         icon: 'lettute.png',
-        vegName: 'Broccoli Flower'
+        vegName: 'Lettuce'
       },
       {
         discount: '20% off',
         price: '$6',
         icon: 'eggplant.png',
-        vegName: 'Broccoli Flower'
+        vegName: 'Eggplant'
       }
 
     ];

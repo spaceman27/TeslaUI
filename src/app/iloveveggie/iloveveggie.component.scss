@@ -1,1 +1,40 @@
-.veg-container {}
+$color-veg: #03B480;
+.veg-container {
+    background-image: url("assets/veggie/bg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    padding: 2em;
+    height: 100%;
+    .bold{
+        color: $color-veg;
+        font-weight: bold;
+    }
+    .quote-title {
+        font-size: 2em;
+    }
+    .quote-content {
+        font-size: 1.3em;
+    }
+}
+
+.first-brick {
+    background: $color-veg;
+    padding: 2em;
+    padding-top: 1em;
+    width: 25em;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    border-radius: 17px;
+    .veg-title {
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
+
+.second-brick {
+    margin-top: 39em;
+    background: #F7F7F7;
+    padding: 1em;
+    border-radius: 17px;
+}
