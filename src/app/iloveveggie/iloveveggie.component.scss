@@ -18,7 +18,7 @@ $color-veg: #03B480;
 }
 
 .first-brick {
-    background: $color-veg;
+    background-color: rgba(81, 158, 76, .5);
     padding: 2em;
     padding-top: 1em;
     width: 25em;
@@ -37,7 +37,7 @@ $color-veg: #03B480;
     background: #F7F7F7;
     padding: 1em;
     border-radius: 17px;
-    min-height: 41.5em;
+    min-height: 50em;
 }
 
 .veg-title {

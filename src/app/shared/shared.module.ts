@@ -13,7 +13,7 @@ import { StarRatingComponent } from './star-rating/star-rating.component';
     StarRatingComponent
   ],
   exports: [
-    LoaderComponent
+    LoaderComponent, StarRatingComponent
   ]
 })
 export class SharedModule { }
